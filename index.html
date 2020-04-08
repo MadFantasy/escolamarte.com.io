@@ -20,7 +20,7 @@ use-site-title: true
     </a>
 
     <p class="post-meta">
-      Postado em {% include date-ge.html date=post.date %}
+      Postado em {{ post.date | date: "%B %-d, %Y" }}
 
 
     </p>
