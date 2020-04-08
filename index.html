@@ -5,6 +5,9 @@ subtitle: TECNOLOGIA, ENGENHARIA E ROBÓTICA.
 use-site-title: true
 ---
 <html lang="pt-br">
+<time datetime="{{ post.date | date_to_xmlschema }}">
+{% include date.html date=post.date %}
+</time>
 <div class="posts-list">
   {% for post in paginator.posts %}
   <article class="post-preview">
