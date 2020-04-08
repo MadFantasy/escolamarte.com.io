@@ -57,8 +57,8 @@ avatar: "/img/avatar.jpg"
 # Change all these values or delete the ones you don't want.
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
-  name: Frederik Kratzert
-  email: "f.kratzert@gmail.com"
+  name: Escola Marte
+  email: "paulo@escolamarte.com.br"
   github: kratzert
   twitter: fkratzert
   linkedin: frederik-kratzert-226a33148
@@ -68,14 +68,15 @@ author:
 
 # Select which links to show in the footer
 footer-links-active:
-  rss: true
-  facebook: false
+  rss: false
+  facebook: true
   email: true
-  twitter: true
-  github: true
-  linkedin: true
+  twitter: false
+  github: false
+  linkedin: false
   xing: false
   stackoverflow: false
+  instagram: true
 
 
 # Select which share links to show in posts
