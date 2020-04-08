@@ -20,9 +20,9 @@ use-site-title: true
     </a>
 
     <p class="post-meta">
-      Postado em <time datetime="{{ post.date | date_to_xmlschema }}">
+      Postado em {{ post.date | date_to_xmlschema }}
 {% include date.html date=post.date %}
-</time>
+
     </p>
 
     <div class="post-entry-container">
