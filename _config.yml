@@ -94,7 +94,7 @@ url-pretty: "kratzert.github.io"  # eg. "deanattali.com/beautiful-jekyll"
 disqus: "escolamarte"
 
 # Fill in your Google Analytics ID to track your website using GA
-google_analytics: "UA-96660715-1"
+google_analytics: ""
 
 # Google Tag Manager ID
 #gtm: ""
