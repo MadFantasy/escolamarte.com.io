@@ -20,7 +20,8 @@ use-site-title: true
     </a>
 
     <p class="post-meta">
-      Postado em {{ post.date | date_to_string }}
+      Postado em {{ post.date | date: "%m/%d/%Y" }}
+
 
 
 
